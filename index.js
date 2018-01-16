@@ -16,12 +16,14 @@ function logWhisper(string){
   console.log("hello");
 }
 
-
+function loveGrandma(string){
+  string = "I love you, Grandma.";
+}
 function sayHiToGrandma(string){
   if(string===string.toUpperCase()){
     return(shoutReply);
   }
-  else if(string==="I love you, Grandma"){
+  else if(string===string.loveGrandma()){
     return(loveReply);
   }
   else {
